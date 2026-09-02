@@ -19,10 +19,10 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- name: "Los Angeles 0"
+- name: "US San Jose ai"
   type: vless
-  server: 128.14.140.215
-  port: 2604
+  server: 23.251.98.102
+  port: 2447
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -33,10 +33,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 0 XHTTP"
+- name: "US San Jose ai XHTTP"
   type: vless
-  server: 128.14.140.215
-  port: 11500
+  server: 23.251.98.102
+  port: 8447
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -51,12 +51,12 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Los Angeles 0 HY2"
+- name: "US San Jose ai HY2"
   type: hysteria2
-  server: 128.14.140.215
+  server: 23.251.98.102
   port: 6443
   password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: kuichx.southbyte.xyz
+  sni: ucyst.southbyte.xyz
   skip-cert-verify: true
   udp: true
   up: 10 Mbps
@@ -103,10 +103,10 @@ proxies:
   udp: true
   up: 10 Mbps
   down: 10 Mbps
-- name: "US San Jose ai"
+- name: "Los Angeles 0"
   type: vless
-  server: 23.251.98.102
-  port: 2447
+  server: 128.14.140.215
+  port: 2604
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -117,10 +117,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US San Jose ai XHTTP"
+- name: "Los Angeles 0 XHTTP"
   type: vless
-  server: 23.251.98.102
-  port: 8447
+  server: 128.14.140.215
+  port: 11500
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -135,12 +135,12 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "US San Jose ai HY2"
+- name: "Los Angeles 0 HY2"
   type: hysteria2
-  server: 23.251.98.102
+  server: 128.14.140.215
   port: 6443
   password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: ucyst.southbyte.xyz
+  sni: kuichx.southbyte.xyz
   skip-cert-verify: true
   udp: true
   up: 10 Mbps
@@ -1333,15 +1333,15 @@ proxy-groups:
   - "VLESS-TCP"
   - "VLESS-XHTTP"
   - HY2
-  - "Los Angeles 0"
-  - "Los Angeles 0 XHTTP"
-  - "Los Angeles 0 HY2"
-  - "Los Angeles 00"
-  - "Los Angeles 00 XHTTP"
-  - "Los Angeles 00 HY2"
   - "US San Jose ai"
   - "US San Jose ai XHTTP"
   - "US San Jose ai HY2"
+  - "Los Angeles 00"
+  - "Los Angeles 00 XHTTP"
+  - "Los Angeles 00 HY2"
+  - "Los Angeles 0"
+  - "Los Angeles 0 XHTTP"
+  - "Los Angeles 0 HY2"
   - "Los Angeles 4"
   - "Los Angeles 4 XHTTP"
   - "Los Angeles 4 HY2"
@@ -1424,15 +1424,15 @@ proxy-groups:
   interval: 180
   tolerance: 50
   proxies:
-  - "Los Angeles 0"
-  - "Los Angeles 0 XHTTP"
-  - "Los Angeles 0 HY2"
-  - "Los Angeles 00"
-  - "Los Angeles 00 XHTTP"
-  - "Los Angeles 00 HY2"
   - "US San Jose ai"
   - "US San Jose ai XHTTP"
   - "US San Jose ai HY2"
+  - "Los Angeles 00"
+  - "Los Angeles 00 XHTTP"
+  - "Los Angeles 00 HY2"
+  - "Los Angeles 0"
+  - "Los Angeles 0 XHTTP"
+  - "Los Angeles 0 HY2"
   - "Los Angeles 4"
   - "Los Angeles 4 XHTTP"
   - "Los Angeles 4 HY2"
@@ -1512,9 +1512,9 @@ proxy-groups:
 - name: "VLESS-TCP"
   type: select
   proxies:
-  - "Los Angeles 0"
-  - "Los Angeles 00"
   - "US San Jose ai"
+  - "Los Angeles 00"
+  - "Los Angeles 0"
   - "Los Angeles 4"
   - "Los Angeles 1"
   - "Los Angeles 2 ai"
@@ -1553,9 +1553,9 @@ proxy-groups:
 - name: "VLESS-XHTTP"
   type: select
   proxies:
-  - "Los Angeles 0 XHTTP"
-  - "Los Angeles 00 XHTTP"
   - "US San Jose ai XHTTP"
+  - "Los Angeles 00 XHTTP"
+  - "Los Angeles 0 XHTTP"
   - "Los Angeles 4 XHTTP"
   - "Los Angeles 1 XHTTP"
   - "Los Angeles 2 ai XHTTP"
@@ -1594,9 +1594,9 @@ proxy-groups:
 - name: HY2
   type: select
   proxies:
-  - "Los Angeles 0 HY2"
-  - "Los Angeles 00 HY2"
   - "US San Jose ai HY2"
+  - "Los Angeles 00 HY2"
+  - "Los Angeles 0 HY2"
   - "Los Angeles 4 HY2"
   - "Los Angeles 1 HY2"
   - "Los Angeles 2 ai HY2"
