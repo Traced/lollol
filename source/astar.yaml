@@ -1,7 +1,8 @@
-# Astar VIP -> Clash Meta / mihomo
-# account: d9pcn9u26w@sugtbt.com
-# nodes: 40 servers -> 90 proxies
-# import with Clash Verge / Clash Meta / mihomo.
+# Astar - verified Clash Meta / mihomo subscription
+# account: myvxz7lrkw@end.tw
+# Full test: 108 configurations; 96 passed; 12 excluded.
+# Tested UTC: 2026-11-13T08:06:37.621541+00:00
+# Point-in-time connectivity test, not a guarantee of lifetime or availability.
 mixed-port: 7890
 allow-lan: false
 bind-address: '*'
@@ -19,10 +20,10 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- name: "United Kingdom ai"
+- name: Los Angeles 5
   type: vless
-  server: 46.101.88.66
-  port: 2445
+  server: 206.82.2.6
+  port: 2446
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -33,10 +34,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "United Kingdom ai XHTTP"
+- name: Los Angeles 5 XHTTP
   type: vless
-  server: 46.101.88.66
-  port: 8447
+  server: 206.82.2.6
+  port: 8444
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -51,51 +52,155 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "HongKong 1"
-  type: vless
-  server: 157.85.234.138
-  port: 2443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "HongKong 1 XHTTP"
-  type: vless
-  server: 157.85.234.138
-  port: 8443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "HongKong 1 HY2"
+- name: Los Angeles 5 HY2
   type: hysteria2
-  server: 157.85.234.138
+  server: 206.82.2.6
   port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: kustas.southbyte.xyz
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: txrase.southbyte.xyz
   skip-cert-verify: true
   udp: true
-  up: 30 Mbps
-  down: 40 Mbps
-- name: "Google Scholar 2"
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 1
   type: vless
-  server: 172.235.60.49
+  server: 162.221.197.82
+  port: 2454
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 1 XHTTP
+  type: vless
+  server: 162.221.197.82
+  port: 11456
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Los Angeles 1 HY2
+  type: hysteria2
+  server: 162.221.197.82
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: liayuw.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 20 Mbps
+- name: Los Angeles 2 ai HY2
+  type: hysteria2
+  server: 128.14.181.210
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: ksuayw.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 4
+  type: vless
+  server: 128.14.83.39
+  port: 2478
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 4 XHTTP
+  type: vless
+  server: 128.14.83.39
+  port: 8474
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Los Angeles 4 HY2
+  type: hysteria2
+  server: 128.14.83.39
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kxiua.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 00
+  type: vless
+  server: 128.14.140.224
+  port: 3483
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 00 XHTTP
+  type: vless
+  server: 128.14.140.224
+  port: 8479
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Los Angeles 00 HY2
+  type: hysteria2
+  server: 128.14.140.224
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: iqksss.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 6
+  type: vless
+  server: 206.82.2.18
   port: 2443
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
@@ -107,9 +212,9 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Google Scholar 2 XHTTP"
+- name: Los Angeles 6 XHTTP
   type: vless
-  server: 172.235.60.49
+  server: 206.82.2.18
   port: 8443
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
@@ -125,10 +230,20 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Singapore ai"
+- name: Los Angeles 6 HY2
+  type: hysteria2
+  server: 206.82.2.18
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: uhwyxta.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: US San Jose
   type: vless
-  server: 152.42.229.231
-  port: 2449
+  server: 169.197.126.94
+  port: 3449
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -139,9 +254,93 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Singapore ai XHTTP"
+- name: US San Jose XHTTP
   type: vless
-  server: 152.42.229.231
+  server: 169.197.126.94
+  port: 8458
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: US San Jose HY2
+  type: hysteria2
+  server: 169.197.126.94
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: ksuqjs.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 0
+  type: vless
+  server: 128.14.140.225
+  port: 2617
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 0 XHTTP
+  type: vless
+  server: 128.14.140.225
+  port: 8446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Los Angeles 0 HY2
+  type: hysteria2
+  server: 128.14.140.225
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: jxuyq.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 3 ai
+  type: vless
+  server: 154.17.22.244
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 3 ai XHTTP
+  type: vless
+  server: 154.17.22.244
   port: 8445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
@@ -157,10 +356,20 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Tokyo 2 ai"
+- name: Los Angeles 3 ai HY2
+  type: hysteria2
+  server: 154.17.22.244
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: jsuysq.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Los Angeles 7
   type: vless
-  server: 172.237.3.20
-  port: 2447
+  server: 128.14.154.33
+  port: 2516
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -171,10 +380,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Tokyo 2 ai XHTTP"
+- name: Los Angeles 7 XHTTP
   type: vless
-  server: 172.237.3.20
-  port: 8447
+  server: 128.14.154.33
+  port: 11466
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -189,10 +398,10 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: Tokyo
+- name: Los Angeles 8
   type: vless
-  server: 8.216.52.155
-  port: 2443
+  server: 128.14.155.168
+  port: 2514
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -203,10 +412,66 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Tokyo XHTTP"
+- name: Los Angeles 8 XHTTP
   type: vless
-  server: 8.216.52.155
-  port: 8443
+  server: 128.14.155.168
+  port: 11459
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Los Angeles 9
+  type: vless
+  server: 128.1.248.10
+  port: 2622
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 9 HY2
+  type: hysteria2
+  server: 128.1.248.10
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: uxyshag.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 10 Mbps
+  down: 10 Mbps
+- name: Los Angeles 10
+  type: vless
+  server: 162.221.197.86
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Los Angeles 10 XHTTP
+  type: vless
+  server: 162.221.197.86
+  port: 8445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -223,8 +488,8 @@ proxies:
     host: www.bing.com
 - name: US.Miami
   type: vless
-  server: 172.233.164.24
-  port: 2463
+  server: 172.238.203.181
+  port: 2445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -235,10 +500,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US.Miami XHTTP"
+- name: US.Miami XHTTP
   type: vless
-  server: 172.233.164.24
-  port: 5464
+  server: 172.238.203.181
+  port: 8444
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -253,212 +518,20 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Los Angeles 7"
-  type: vless
-  server: 128.14.154.33
-  port: 2504
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: jxuaix.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 7 XHTTP"
-  type: vless
-  server: 128.14.154.33
-  port: 11450
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: jxuaix.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: jxuaix.southbyte.xyz
-- name: "Singapore 1"
-  type: vless
-  server: 168.144.128.180
-  port: 2443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Singapore 1 XHTTP"
-  type: vless
-  server: 168.144.128.180
-  port: 8443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 8"
-  type: vless
-  server: 128.14.154.59
-  port: 2499
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: jcurae.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 8 XHTTP"
-  type: vless
-  server: 128.14.154.59
-  port: 11447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: jcurae.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: jcurae.southbyte.xyz
-- name: "Netherlands ai"
-  type: vless
-  server: 165.22.198.37
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Netherlands ai XHTTP"
-  type: vless
-  server: 165.22.198.37
-  port: 8447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 3 ai"
-  type: vless
-  server: 179.255.122.132
-  port: 3448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 3 ai XHTTP"
-  type: vless
-  server: 179.255.122.132
-  port: 8447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 4"
-  type: vless
-  server: 128.1.248.134
-  port: 2466
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 4 XHTTP"
-  type: vless
-  server: 128.1.248.134
-  port: 8465
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 4 HY2"
+- name: US.Miami HY2
   type: hysteria2
-  server: 128.1.248.134
+  server: 172.238.203.181
   port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: nhcysd.southbyte.xyz
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kuqyxt.southbyte.xyz
   skip-cert-verify: true
   udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "Australia ai"
+  up: 5 Mbps
+  down: 5 Mbps
+- name: US.New York
   type: vless
-  server: 170.64.147.246
-  port: 2448
+  server: 167.99.12.192
+  port: 2445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -469,476 +542,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Australia ai XHTTP"
+- name: US.New York XHTTP
   type: vless
-  server: 170.64.147.246
-  port: 8446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: US.California
-  type: vless
-  server: 137.184.7.121
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US.California XHTTP"
-  type: vless
-  server: 137.184.7.121
-  port: 8446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: Sweden
-  type: vless
-  server: 172.234.103.243
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Sweden XHTTP"
-  type: vless
-  server: 172.234.103.243
-  port: 8448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Canada ai"
-  type: vless
-  server: 167.99.183.42
-  port: 2473
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Canada ai XHTTP"
-  type: vless
-  server: 167.99.183.42
-  port: 5449
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 1"
-  type: vless
-  server: 107.151.182.165
-  port: 2446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 1 XHTTP"
-  type: vless
-  server: 107.151.182.165
-  port: 11451
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 1 HY2"
-  type: hysteria2
-  server: 107.151.182.165
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: kuxyas.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 20 Mbps
-- name: "Germany ai"
-  type: vless
-  server: 134.122.77.227
-  port: 2449
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Germany ai XHTTP"
-  type: vless
-  server: 134.122.77.227
-  port: 8445
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "HongKong 2"
-  type: vless
-  server: 157.85.234.90
-  port: 2443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "HongKong 2 XHTTP"
-  type: vless
-  server: 157.85.234.90
-  port: 8443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "HongKong 2 HY2"
-  type: hysteria2
-  server: 157.85.234.90
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: usyxta.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 30 Mbps
-  down: 40 Mbps
-- name: "Los Angeles 00"
-  type: vless
-  server: 128.1.247.134
-  port: 2471
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 00 XHTTP"
-  type: vless
-  server: 128.1.247.134
-  port: 8471
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 00 HY2"
-  type: hysteria2
-  server: 128.1.247.134
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: uctsga.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "Los Angeles 2 ai"
-  type: vless
-  server: 128.14.83.34
-  port: 2679
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.samsung.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 2 ai XHTTP"
-  type: vless
-  server: 128.14.83.34
-  port: 11473
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.samsung.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.samsung.com
-- name: "Los Angeles 2 ai HY2"
-  type: hysteria2
-  server: 128.14.83.34
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: nhosnode.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "India ai"
-  type: vless
-  server: 168.144.152.96
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "India ai XHTTP"
-  type: vless
-  server: 168.144.152.96
-  port: 8446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "US For ChatGPT"
-  type: vless
-  server: 128.1.248.9
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: cjusdk.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US For ChatGPT XHTTP"
-  type: vless
-  server: 128.1.248.9
-  port: 11452
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: cjusdk.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: cjusdk.southbyte.xyz
-- name: US.Ashburn
-  type: vless
-  server: 139.144.218.110
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US.Ashburn XHTTP"
-  type: vless
-  server: 139.144.218.110
-  port: 8447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 9"
-  type: vless
-  server: 128.1.248.10
-  port: 2614
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: uxyshag.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 9 XHTTP"
-  type: vless
-  server: 128.1.248.10
-  port: 11454
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: uxyshag.southbyte.xyz
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: uxyshag.southbyte.xyz
-- name: "Los Angeles 9 HY2"
-  type: hysteria2
-  server: 128.1.248.10
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: uxyshag.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "Tokyo 4"
-  type: vless
-  server: 139.162.90.180
-  port: 2448
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Tokyo 4 XHTTP"
-  type: vless
-  server: 139.162.90.180
-  port: 8446
+  server: 167.99.12.192
+  port: 8444
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -956,7 +563,7 @@ proxies:
 - name: US.Chicago
   type: vless
   server: 172.232.27.78
-  port: 2448
+  port: 2452
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -967,10 +574,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US.Chicago XHTTP"
+- name: US.Chicago XHTTP
   type: vless
   server: 172.232.27.78
-  port: 8447
+  port: 8449
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -985,10 +592,10 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: Espana
+- name: US.California
   type: vless
-  server: 172.233.111.31
-  port: 2449
+  server: 143.198.236.236
+  port: 2446
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -999,10 +606,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Espana XHTTP"
+- name: US.California XHTTP
   type: vless
-  server: 172.233.111.31
-  port: 8446
+  server: 143.198.236.236
+  port: 8445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1017,10 +624,10 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Los Angeles 0"
+- name: US.Ashburn
   type: vless
-  server: 128.14.140.215
-  port: 2604
+  server: 139.144.218.110
+  port: 2453
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1031,10 +638,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 0 XHTTP"
+- name: US.Ashburn XHTTP
   type: vless
-  server: 128.14.140.215
-  port: 11500
+  server: 139.144.218.110
+  port: 8452
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1049,20 +656,52 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Los Angeles 0 HY2"
+- name: Google Scholar 1
+  type: vless
+  server: 172.233.157.131
+  port: 2445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Google Scholar 1 XHTTP
+  type: vless
+  server: 172.233.157.131
+  port: 8445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Google Scholar 1 HY2
   type: hysteria2
-  server: 128.14.140.215
+  server: 172.233.157.131
   port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: kuichx.southbyte.xyz
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kuqisc.southbyte.xyz
   skip-cert-verify: true
   udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "Google Scholar 1"
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Google Scholar 2
   type: vless
-  server: 172.233.151.82
-  port: 2443
+  server: 172.233.130.163
+  port: 2445
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1073,9 +712,219 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Google Scholar 1 XHTTP"
+- name: Google Scholar 2 XHTTP
   type: vless
-  server: 172.233.151.82
+  server: 172.233.130.163
+  port: 8445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Google Scholar 2 HY2
+  type: hysteria2
+  server: 172.233.130.163
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: oqisuy.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: HongKong 1
+  type: vless
+  server: 157.85.234.138
+  port: 2445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: HongKong 1 XHTTP
+  type: vless
+  server: 157.85.234.138
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: HongKong 1 HY2
+  type: hysteria2
+  server: 157.85.234.138
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kustas.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 30 Mbps
+  down: 40 Mbps
+- name: HongKong 2
+  type: vless
+  server: 157.85.234.90
+  port: 2444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: HongKong 2 XHTTP
+  type: vless
+  server: 157.85.234.90
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: HongKong 2 HY2
+  type: hysteria2
+  server: 157.85.234.90
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: usyxta.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 30 Mbps
+  down: 40 Mbps
+- name: Tokyo
+  type: vless
+  server: 43.92.80.197
+  port: 2445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Tokyo XHTTP
+  type: vless
+  server: 43.92.80.197
+  port: 8445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Tokyo 1 ai HY2
+  type: hysteria2
+  server: 139.162.94.73
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kpoqsi.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Tokyo 2 ai
+  type: vless
+  server: 139.162.94.20
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Tokyo 2 ai XHTTP
+  type: vless
+  server: 139.162.94.20
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Tokyo 2 ai HY2
+  type: hysteria2
+  server: 139.162.94.20
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kuqtys.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Tokyo 3 ai
+  type: vless
+  server: 172.105.237.234
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Tokyo 3 ai XHTTP
+  type: vless
+  server: 172.105.237.234
   port: 8443
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
@@ -1091,10 +940,20 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Tokyo 3 ai"
+- name: Tokyo 3 ai HY2
+  type: hysteria2
+  server: 172.105.237.234
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: kqysuq.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Tokyo 4
   type: vless
-  server: 139.162.86.129
-  port: 2448
+  server: 139.162.74.105
+  port: 2446
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1105,10 +964,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Tokyo 3 ai XHTTP"
+- name: Tokyo 4 XHTTP
   type: vless
-  server: 139.162.86.129
-  port: 8447
+  server: 139.162.74.105
+  port: 8444
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1123,10 +982,20 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "United Kingdom  ai"
+- name: Tokyo 4 HY2
+  type: hysteria2
+  server: 139.162.74.105
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: koqust.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: India ai
   type: vless
-  server: 209.97.128.37
-  port: 2449
+  server: 168.144.152.96
+  port: 2451
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1137,10 +1006,326 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "United Kingdom  ai XHTTP"
+- name: India ai XHTTP
   type: vless
-  server: 209.97.128.37
+  server: 168.144.152.96
+  port: 8448
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Singapore 1
+  type: vless
+  server: 168.144.128.180
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Singapore 1 XHTTP
+  type: vless
+  server: 168.144.128.180
   port: 8446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Singapore 1 HY2
+  type: hysteria2
+  server: 168.144.128.180
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: sjaywh.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Australia ai
+  type: vless
+  server: 194.195.253.38
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Australia ai XHTTP
+  type: vless
+  server: 194.195.253.38
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Germany ai
+  type: vless
+  server: 165.227.169.72
+  port: 2444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Germany ai XHTTP
+  type: vless
+  server: 165.227.169.72
+  port: 8446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Germany ai HY2
+  type: hysteria2
+  server: 165.227.169.72
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: fyxtaj.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Netherlands ai
+  type: vless
+  server: 209.38.111.212
+  port: 2445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Netherlands ai XHTTP
+  type: vless
+  server: 209.38.111.212
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Netherlands ai HY2
+  type: hysteria2
+  server: 209.38.111.212
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: amsjuy.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: United Kingdom
+  type: vless
+  server: 68.183.36.148
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: United Kingdom XHTTP
+  type: vless
+  server: 68.183.36.148
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: United Kingdom HY2
+  type: hysteria2
+  server: 68.183.36.148
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: lonshx.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Canada  ai
+  type: vless
+  server: 138.197.173.48
+  port: 2445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Canada  ai XHTTP
+  type: vless
+  server: 138.197.173.48
+  port: 8444
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Canada  ai HY2
+  type: hysteria2
+  server: 138.197.173.48
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: cashyx.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Espana
+  type: vless
+  server: 172.233.109.232
+  port: 2446
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Espana XHTTP
+  type: vless
+  server: 172.233.109.232
+  port: 8445
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: xhttp
+  tls: true
+  udp: true
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+    short-id: a1b2c3d4e5f6a7b8
+  xhttp-opts:
+    path: /rxhome
+    mode: packet-up
+    host: www.bing.com
+- name: Espana HY2
+  type: hysteria2
+  server: 172.233.109.232
+  port: 6443
+  password: /xg7+G7S2Tw3Ad1T0lFoCjJ+
+  sni: madjxha.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
+  up: 5 Mbps
+  down: 5 Mbps
+- name: Paris
+  type: vless
+  server: 172.232.62.220
+  port: 2450
+  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: firefox
+  packet-encoding: xudp
+  reality-opts:
+    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
+- name: Paris XHTTP
+  type: vless
+  server: 172.232.62.220
+  port: 8450
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1158,7 +1343,7 @@ proxies:
 - name: Milan
   type: vless
   server: 104.105.69.191
-  port: 2447
+  port: 2449
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1169,10 +1354,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Milan XHTTP"
+- name: Milan XHTTP
   type: vless
   server: 104.105.69.191
-  port: 8447
+  port: 8448
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1187,10 +1372,10 @@ proxies:
     path: /rxhome
     mode: packet-up
     host: www.bing.com
-- name: "Los Angeles 5"
+- name: Sweden
   type: vless
-  server: 206.82.2.6
-  port: 2443
+  server: 172.234.103.243
+  port: 2452
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: tcp
   tls: true
@@ -1201,190 +1386,10 @@ proxies:
   packet-encoding: xudp
   reality-opts:
     public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Los Angeles 5 XHTTP"
+- name: Sweden XHTTP
   type: vless
-  server: 206.82.2.6
-  port: 8443
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Los Angeles 5 HY2"
-  type: hysteria2
-  server: 206.82.2.6
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: txrase.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 20 Mbps
-- name: "Tokyo 1 ai"
-  type: vless
-  server: 172.237.3.17
-  port: 2447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Tokyo 1 ai XHTTP"
-  type: vless
-  server: 172.237.3.17
-  port: 8446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: Paris
-  type: vless
-  server: 172.232.62.220
-  port: 2446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Paris XHTTP"
-  type: vless
-  server: 172.232.62.220
-  port: 8447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "US San Jose"
-  type: vless
-  server: 23.251.98.102
-  port: 2447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US San Jose XHTTP"
-  type: vless
-  server: 23.251.98.102
-  port: 8447
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "US San Jose HY2"
-  type: hysteria2
-  server: 23.251.98.102
-  port: 6443
-  password: "/xg7+G7S2Tw3Ad1T0lFoCjJ+"
-  sni: ucyst.southbyte.xyz
-  skip-cert-verify: true
-  udp: true
-  up: 10 Mbps
-  down: 10 Mbps
-- name: "US.Fremont ai"
-  type: vless
-  server: 45.33.62.127
-  port: 2450
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "US.Fremont ai XHTTP"
-  type: vless
-  server: 45.33.62.127
-  port: 8446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: xhttp
-  tls: true
-  udp: true
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-    short-id: a1b2c3d4e5f6a7b8
-  xhttp-opts:
-    path: /rxhome
-    mode: packet-up
-    host: www.bing.com
-- name: "Canada  ai"
-  type: vless
-  server: 159.203.59.220
-  port: 2446
-  uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
-  network: tcp
-  tls: true
-  udp: true
-  flow: xtls-rprx-vision
-  servername: www.bing.com
-  client-fingerprint: firefox
-  packet-encoding: xudp
-  reality-opts:
-    public-key: gqJQEL_8fQELDkZMMmyg7asIzHpK1qrfbmzVYIFTN1w
-- name: "Canada  ai XHTTP"
-  type: vless
-  server: 159.203.59.220
-  port: 8447
+  server: 172.234.103.243
+  port: 8450
   uuid: d4dac2d6-b648-46a1-b6d8-bf45d6377268
   network: xhttp
   tls: true
@@ -1404,293 +1409,311 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - "VLESS-TCP"
-  - "VLESS-XHTTP"
+  - VLESS-TCP
+  - VLESS-XHTTP
   - HY2
-  - "United Kingdom ai"
-  - "United Kingdom ai XHTTP"
-  - "HongKong 1"
-  - "HongKong 1 XHTTP"
-  - "HongKong 1 HY2"
-  - "Google Scholar 2"
-  - "Google Scholar 2 XHTTP"
-  - "Singapore ai"
-  - "Singapore ai XHTTP"
-  - "Tokyo 2 ai"
-  - "Tokyo 2 ai XHTTP"
-  - Tokyo
-  - "Tokyo XHTTP"
+  - Los Angeles 5
+  - Los Angeles 5 XHTTP
+  - Los Angeles 5 HY2
+  - Los Angeles 1
+  - Los Angeles 1 XHTTP
+  - Los Angeles 1 HY2
+  - Los Angeles 2 ai HY2
+  - Los Angeles 4
+  - Los Angeles 4 XHTTP
+  - Los Angeles 4 HY2
+  - Los Angeles 00
+  - Los Angeles 00 XHTTP
+  - Los Angeles 00 HY2
+  - Los Angeles 6
+  - Los Angeles 6 XHTTP
+  - Los Angeles 6 HY2
+  - US San Jose
+  - US San Jose XHTTP
+  - US San Jose HY2
+  - Los Angeles 0
+  - Los Angeles 0 XHTTP
+  - Los Angeles 0 HY2
+  - Los Angeles 3 ai
+  - Los Angeles 3 ai XHTTP
+  - Los Angeles 3 ai HY2
+  - Los Angeles 7
+  - Los Angeles 7 XHTTP
+  - Los Angeles 8
+  - Los Angeles 8 XHTTP
+  - Los Angeles 9
+  - Los Angeles 9 HY2
+  - Los Angeles 10
+  - Los Angeles 10 XHTTP
   - US.Miami
-  - "US.Miami XHTTP"
-  - "Los Angeles 7"
-  - "Los Angeles 7 XHTTP"
-  - "Singapore 1"
-  - "Singapore 1 XHTTP"
-  - "Los Angeles 8"
-  - "Los Angeles 8 XHTTP"
-  - "Netherlands ai"
-  - "Netherlands ai XHTTP"
-  - "Los Angeles 3 ai"
-  - "Los Angeles 3 ai XHTTP"
-  - "Los Angeles 4"
-  - "Los Angeles 4 XHTTP"
-  - "Los Angeles 4 HY2"
-  - "Australia ai"
-  - "Australia ai XHTTP"
-  - US.California
-  - "US.California XHTTP"
-  - Sweden
-  - "Sweden XHTTP"
-  - "Canada ai"
-  - "Canada ai XHTTP"
-  - "Los Angeles 1"
-  - "Los Angeles 1 XHTTP"
-  - "Los Angeles 1 HY2"
-  - "Germany ai"
-  - "Germany ai XHTTP"
-  - "HongKong 2"
-  - "HongKong 2 XHTTP"
-  - "HongKong 2 HY2"
-  - "Los Angeles 00"
-  - "Los Angeles 00 XHTTP"
-  - "Los Angeles 00 HY2"
-  - "Los Angeles 2 ai"
-  - "Los Angeles 2 ai XHTTP"
-  - "Los Angeles 2 ai HY2"
-  - "India ai"
-  - "India ai XHTTP"
-  - "US For ChatGPT"
-  - "US For ChatGPT XHTTP"
-  - US.Ashburn
-  - "US.Ashburn XHTTP"
-  - "Los Angeles 9"
-  - "Los Angeles 9 XHTTP"
-  - "Los Angeles 9 HY2"
-  - "Tokyo 4"
-  - "Tokyo 4 XHTTP"
+  - US.Miami XHTTP
+  - US.Miami HY2
+  - US.New York
+  - US.New York XHTTP
   - US.Chicago
-  - "US.Chicago XHTTP"
+  - US.Chicago XHTTP
+  - US.California
+  - US.California XHTTP
+  - US.Ashburn
+  - US.Ashburn XHTTP
+  - Google Scholar 1
+  - Google Scholar 1 XHTTP
+  - Google Scholar 1 HY2
+  - Google Scholar 2
+  - Google Scholar 2 XHTTP
+  - Google Scholar 2 HY2
+  - HongKong 1
+  - HongKong 1 XHTTP
+  - HongKong 1 HY2
+  - HongKong 2
+  - HongKong 2 XHTTP
+  - HongKong 2 HY2
+  - Tokyo
+  - Tokyo XHTTP
+  - Tokyo 1 ai HY2
+  - Tokyo 2 ai
+  - Tokyo 2 ai XHTTP
+  - Tokyo 2 ai HY2
+  - Tokyo 3 ai
+  - Tokyo 3 ai XHTTP
+  - Tokyo 3 ai HY2
+  - Tokyo 4
+  - Tokyo 4 XHTTP
+  - Tokyo 4 HY2
+  - India ai
+  - India ai XHTTP
+  - Singapore 1
+  - Singapore 1 XHTTP
+  - Singapore 1 HY2
+  - Australia ai
+  - Australia ai XHTTP
+  - Germany ai
+  - Germany ai XHTTP
+  - Germany ai HY2
+  - Netherlands ai
+  - Netherlands ai XHTTP
+  - Netherlands ai HY2
+  - United Kingdom
+  - United Kingdom XHTTP
+  - United Kingdom HY2
+  - Canada  ai
+  - Canada  ai XHTTP
+  - Canada  ai HY2
   - Espana
-  - "Espana XHTTP"
-  - "Los Angeles 0"
-  - "Los Angeles 0 XHTTP"
-  - "Los Angeles 0 HY2"
-  - "Google Scholar 1"
-  - "Google Scholar 1 XHTTP"
-  - "Tokyo 3 ai"
-  - "Tokyo 3 ai XHTTP"
-  - "United Kingdom  ai"
-  - "United Kingdom  ai XHTTP"
-  - Milan
-  - "Milan XHTTP"
-  - "Los Angeles 5"
-  - "Los Angeles 5 XHTTP"
-  - "Los Angeles 5 HY2"
-  - "Tokyo 1 ai"
-  - "Tokyo 1 ai XHTTP"
+  - Espana XHTTP
+  - Espana HY2
   - Paris
-  - "Paris XHTTP"
-  - "US San Jose"
-  - "US San Jose XHTTP"
-  - "US San Jose HY2"
-  - "US.Fremont ai"
-  - "US.Fremont ai XHTTP"
-  - "Canada  ai"
-  - "Canada  ai XHTTP"
+  - Paris XHTTP
+  - Milan
+  - Milan XHTTP
+  - Sweden
+  - Sweden XHTTP
 - name: AUTO
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: https://www.gstatic.com/generate_204
   interval: 180
   tolerance: 50
   proxies:
-  - "United Kingdom ai"
-  - "United Kingdom ai XHTTP"
-  - "HongKong 1"
-  - "HongKong 1 XHTTP"
-  - "HongKong 1 HY2"
-  - "Google Scholar 2"
-  - "Google Scholar 2 XHTTP"
-  - "Singapore ai"
-  - "Singapore ai XHTTP"
-  - "Tokyo 2 ai"
-  - "Tokyo 2 ai XHTTP"
-  - Tokyo
-  - "Tokyo XHTTP"
+  - Los Angeles 5
+  - Los Angeles 5 XHTTP
+  - Los Angeles 5 HY2
+  - Los Angeles 1
+  - Los Angeles 1 XHTTP
+  - Los Angeles 1 HY2
+  - Los Angeles 2 ai HY2
+  - Los Angeles 4
+  - Los Angeles 4 XHTTP
+  - Los Angeles 4 HY2
+  - Los Angeles 00
+  - Los Angeles 00 XHTTP
+  - Los Angeles 00 HY2
+  - Los Angeles 6
+  - Los Angeles 6 XHTTP
+  - Los Angeles 6 HY2
+  - US San Jose
+  - US San Jose XHTTP
+  - US San Jose HY2
+  - Los Angeles 0
+  - Los Angeles 0 XHTTP
+  - Los Angeles 0 HY2
+  - Los Angeles 3 ai
+  - Los Angeles 3 ai XHTTP
+  - Los Angeles 3 ai HY2
+  - Los Angeles 7
+  - Los Angeles 7 XHTTP
+  - Los Angeles 8
+  - Los Angeles 8 XHTTP
+  - Los Angeles 9
+  - Los Angeles 9 HY2
+  - Los Angeles 10
+  - Los Angeles 10 XHTTP
   - US.Miami
-  - "US.Miami XHTTP"
-  - "Los Angeles 7"
-  - "Los Angeles 7 XHTTP"
-  - "Singapore 1"
-  - "Singapore 1 XHTTP"
-  - "Los Angeles 8"
-  - "Los Angeles 8 XHTTP"
-  - "Netherlands ai"
-  - "Netherlands ai XHTTP"
-  - "Los Angeles 3 ai"
-  - "Los Angeles 3 ai XHTTP"
-  - "Los Angeles 4"
-  - "Los Angeles 4 XHTTP"
-  - "Los Angeles 4 HY2"
-  - "Australia ai"
-  - "Australia ai XHTTP"
-  - US.California
-  - "US.California XHTTP"
-  - Sweden
-  - "Sweden XHTTP"
-  - "Canada ai"
-  - "Canada ai XHTTP"
-  - "Los Angeles 1"
-  - "Los Angeles 1 XHTTP"
-  - "Los Angeles 1 HY2"
-  - "Germany ai"
-  - "Germany ai XHTTP"
-  - "HongKong 2"
-  - "HongKong 2 XHTTP"
-  - "HongKong 2 HY2"
-  - "Los Angeles 00"
-  - "Los Angeles 00 XHTTP"
-  - "Los Angeles 00 HY2"
-  - "Los Angeles 2 ai"
-  - "Los Angeles 2 ai XHTTP"
-  - "Los Angeles 2 ai HY2"
-  - "India ai"
-  - "India ai XHTTP"
-  - "US For ChatGPT"
-  - "US For ChatGPT XHTTP"
-  - US.Ashburn
-  - "US.Ashburn XHTTP"
-  - "Los Angeles 9"
-  - "Los Angeles 9 XHTTP"
-  - "Los Angeles 9 HY2"
-  - "Tokyo 4"
-  - "Tokyo 4 XHTTP"
+  - US.Miami XHTTP
+  - US.Miami HY2
+  - US.New York
+  - US.New York XHTTP
   - US.Chicago
-  - "US.Chicago XHTTP"
+  - US.Chicago XHTTP
+  - US.California
+  - US.California XHTTP
+  - US.Ashburn
+  - US.Ashburn XHTTP
+  - Google Scholar 1
+  - Google Scholar 1 XHTTP
+  - Google Scholar 1 HY2
+  - Google Scholar 2
+  - Google Scholar 2 XHTTP
+  - Google Scholar 2 HY2
+  - HongKong 1
+  - HongKong 1 XHTTP
+  - HongKong 1 HY2
+  - HongKong 2
+  - HongKong 2 XHTTP
+  - HongKong 2 HY2
+  - Tokyo
+  - Tokyo XHTTP
+  - Tokyo 1 ai HY2
+  - Tokyo 2 ai
+  - Tokyo 2 ai XHTTP
+  - Tokyo 2 ai HY2
+  - Tokyo 3 ai
+  - Tokyo 3 ai XHTTP
+  - Tokyo 3 ai HY2
+  - Tokyo 4
+  - Tokyo 4 XHTTP
+  - Tokyo 4 HY2
+  - India ai
+  - India ai XHTTP
+  - Singapore 1
+  - Singapore 1 XHTTP
+  - Singapore 1 HY2
+  - Australia ai
+  - Australia ai XHTTP
+  - Germany ai
+  - Germany ai XHTTP
+  - Germany ai HY2
+  - Netherlands ai
+  - Netherlands ai XHTTP
+  - Netherlands ai HY2
+  - United Kingdom
+  - United Kingdom XHTTP
+  - United Kingdom HY2
+  - Canada  ai
+  - Canada  ai XHTTP
+  - Canada  ai HY2
   - Espana
-  - "Espana XHTTP"
-  - "Los Angeles 0"
-  - "Los Angeles 0 XHTTP"
-  - "Los Angeles 0 HY2"
-  - "Google Scholar 1"
-  - "Google Scholar 1 XHTTP"
-  - "Tokyo 3 ai"
-  - "Tokyo 3 ai XHTTP"
-  - "United Kingdom  ai"
-  - "United Kingdom  ai XHTTP"
-  - Milan
-  - "Milan XHTTP"
-  - "Los Angeles 5"
-  - "Los Angeles 5 XHTTP"
-  - "Los Angeles 5 HY2"
-  - "Tokyo 1 ai"
-  - "Tokyo 1 ai XHTTP"
+  - Espana XHTTP
+  - Espana HY2
   - Paris
-  - "Paris XHTTP"
-  - "US San Jose"
-  - "US San Jose XHTTP"
-  - "US San Jose HY2"
-  - "US.Fremont ai"
-  - "US.Fremont ai XHTTP"
-  - "Canada  ai"
-  - "Canada  ai XHTTP"
-- name: "VLESS-TCP"
+  - Paris XHTTP
+  - Milan
+  - Milan XHTTP
+  - Sweden
+  - Sweden XHTTP
+- name: VLESS-TCP
   type: select
   proxies:
-  - "United Kingdom ai"
-  - "HongKong 1"
-  - "Google Scholar 2"
-  - "Singapore ai"
-  - "Tokyo 2 ai"
-  - Tokyo
+  - Los Angeles 5
+  - Los Angeles 1
+  - Los Angeles 4
+  - Los Angeles 00
+  - Los Angeles 6
+  - US San Jose
+  - Los Angeles 0
+  - Los Angeles 3 ai
+  - Los Angeles 7
+  - Los Angeles 8
+  - Los Angeles 9
+  - Los Angeles 10
   - US.Miami
-  - "Los Angeles 7"
-  - "Singapore 1"
-  - "Los Angeles 8"
-  - "Netherlands ai"
-  - "Los Angeles 3 ai"
-  - "Los Angeles 4"
-  - "Australia ai"
-  - US.California
-  - Sweden
-  - "Canada ai"
-  - "Los Angeles 1"
-  - "Germany ai"
-  - "HongKong 2"
-  - "Los Angeles 00"
-  - "Los Angeles 2 ai"
-  - "India ai"
-  - "US For ChatGPT"
-  - US.Ashburn
-  - "Los Angeles 9"
-  - "Tokyo 4"
+  - US.New York
   - US.Chicago
+  - US.California
+  - US.Ashburn
+  - Google Scholar 1
+  - Google Scholar 2
+  - HongKong 1
+  - HongKong 2
+  - Tokyo
+  - Tokyo 2 ai
+  - Tokyo 3 ai
+  - Tokyo 4
+  - India ai
+  - Singapore 1
+  - Australia ai
+  - Germany ai
+  - Netherlands ai
+  - United Kingdom
+  - Canada  ai
   - Espana
-  - "Los Angeles 0"
-  - "Google Scholar 1"
-  - "Tokyo 3 ai"
-  - "United Kingdom  ai"
-  - Milan
-  - "Los Angeles 5"
-  - "Tokyo 1 ai"
   - Paris
-  - "US San Jose"
-  - "US.Fremont ai"
-  - "Canada  ai"
-- name: "VLESS-XHTTP"
+  - Milan
+  - Sweden
+- name: VLESS-XHTTP
   type: select
   proxies:
-  - "United Kingdom ai XHTTP"
-  - "HongKong 1 XHTTP"
-  - "Google Scholar 2 XHTTP"
-  - "Singapore ai XHTTP"
-  - "Tokyo 2 ai XHTTP"
-  - "Tokyo XHTTP"
-  - "US.Miami XHTTP"
-  - "Los Angeles 7 XHTTP"
-  - "Singapore 1 XHTTP"
-  - "Los Angeles 8 XHTTP"
-  - "Netherlands ai XHTTP"
-  - "Los Angeles 3 ai XHTTP"
-  - "Los Angeles 4 XHTTP"
-  - "Australia ai XHTTP"
-  - "US.California XHTTP"
-  - "Sweden XHTTP"
-  - "Canada ai XHTTP"
-  - "Los Angeles 1 XHTTP"
-  - "Germany ai XHTTP"
-  - "HongKong 2 XHTTP"
-  - "Los Angeles 00 XHTTP"
-  - "Los Angeles 2 ai XHTTP"
-  - "India ai XHTTP"
-  - "US For ChatGPT XHTTP"
-  - "US.Ashburn XHTTP"
-  - "Los Angeles 9 XHTTP"
-  - "Tokyo 4 XHTTP"
-  - "US.Chicago XHTTP"
-  - "Espana XHTTP"
-  - "Los Angeles 0 XHTTP"
-  - "Google Scholar 1 XHTTP"
-  - "Tokyo 3 ai XHTTP"
-  - "United Kingdom  ai XHTTP"
-  - "Milan XHTTP"
-  - "Los Angeles 5 XHTTP"
-  - "Tokyo 1 ai XHTTP"
-  - "Paris XHTTP"
-  - "US San Jose XHTTP"
-  - "US.Fremont ai XHTTP"
-  - "Canada  ai XHTTP"
+  - Los Angeles 5 XHTTP
+  - Los Angeles 1 XHTTP
+  - Los Angeles 4 XHTTP
+  - Los Angeles 00 XHTTP
+  - Los Angeles 6 XHTTP
+  - US San Jose XHTTP
+  - Los Angeles 0 XHTTP
+  - Los Angeles 3 ai XHTTP
+  - Los Angeles 7 XHTTP
+  - Los Angeles 8 XHTTP
+  - Los Angeles 10 XHTTP
+  - US.Miami XHTTP
+  - US.New York XHTTP
+  - US.Chicago XHTTP
+  - US.California XHTTP
+  - US.Ashburn XHTTP
+  - Google Scholar 1 XHTTP
+  - Google Scholar 2 XHTTP
+  - HongKong 1 XHTTP
+  - HongKong 2 XHTTP
+  - Tokyo XHTTP
+  - Tokyo 2 ai XHTTP
+  - Tokyo 3 ai XHTTP
+  - Tokyo 4 XHTTP
+  - India ai XHTTP
+  - Singapore 1 XHTTP
+  - Australia ai XHTTP
+  - Germany ai XHTTP
+  - Netherlands ai XHTTP
+  - United Kingdom XHTTP
+  - Canada  ai XHTTP
+  - Espana XHTTP
+  - Paris XHTTP
+  - Milan XHTTP
+  - Sweden XHTTP
 - name: HY2
   type: select
   proxies:
-  - "HongKong 1 HY2"
-  - "Los Angeles 4 HY2"
-  - "Los Angeles 1 HY2"
-  - "HongKong 2 HY2"
-  - "Los Angeles 00 HY2"
-  - "Los Angeles 2 ai HY2"
-  - "Los Angeles 9 HY2"
-  - "Los Angeles 0 HY2"
-  - "Los Angeles 5 HY2"
-  - "US San Jose HY2"
+  - Los Angeles 5 HY2
+  - Los Angeles 1 HY2
+  - Los Angeles 2 ai HY2
+  - Los Angeles 4 HY2
+  - Los Angeles 00 HY2
+  - Los Angeles 6 HY2
+  - US San Jose HY2
+  - Los Angeles 0 HY2
+  - Los Angeles 3 ai HY2
+  - Los Angeles 9 HY2
+  - US.Miami HY2
+  - Google Scholar 1 HY2
+  - Google Scholar 2 HY2
+  - HongKong 1 HY2
+  - HongKong 2 HY2
+  - Tokyo 1 ai HY2
+  - Tokyo 2 ai HY2
+  - Tokyo 3 ai HY2
+  - Tokyo 4 HY2
+  - Singapore 1 HY2
+  - Germany ai HY2
+  - Netherlands ai HY2
+  - United Kingdom HY2
+  - Canada  ai HY2
+  - Espana HY2
 rules:
 - MATCH,PROXY
